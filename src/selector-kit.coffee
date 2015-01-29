@@ -1,2 +1,2 @@
 module.exports =
-  Selector = require './selector'
+  Selector: require './selector'
