@@ -58,7 +58,7 @@ class Selector
 
     selectorIndex < 0
 
-  # Public: Compare to another {Selector} object
+  # Public: Compare specificity to another {Selector} object
   #
   # * `other` {Selector} object
   #
@@ -69,7 +69,7 @@ class Selector
     else
       other.specificity - @specificity
 
-  # Public: Returns {Boolean}
+  # Public: Returns {Boolean} if the selectors are equal.
   #
   # * `other` {Selector} object
   isEqual: (other) ->

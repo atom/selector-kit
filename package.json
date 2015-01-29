@@ -2,7 +2,7 @@
   "name": "selector-kit",
   "version": "0.0.0",
   "description": "A barebones toolkit for CSS selector parsing and matching.",
-  "main": "./lib/selector",
+  "main": "./lib/selector-kit",
   "scripts": {
     "prepublish": "grunt clean lint coffee",
     "test": "grunt test"
