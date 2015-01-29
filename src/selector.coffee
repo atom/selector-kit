@@ -36,8 +36,7 @@ class Selector
   # Public: Returns a {Boolean} indcating whether or not this `Selector` matches
   # the given scope chain.
   #
-  # * `scopeChain` {String} or {Array} of strings. e.g. `.parent .child` or
-  #   ['.parent', '.child']
+  # * `scopeChain` {String} e.g. `.parent .child`
   matches: (scopeChain) ->
     if typeof scopeChain is 'string'
       [scopeChain] = slick.parse(scopeChain)
